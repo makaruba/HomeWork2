@@ -1,4 +1,4 @@
-public class NewClass {
+public class DoNothing {
 
     public void doNothing(){
         System.out.println("Do nothing");

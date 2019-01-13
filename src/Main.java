@@ -7,11 +7,14 @@ public class Main {
         }
         System.out.println("ololo");
         System.out.println("NewBranch1");
-        NewClass xxx = new NewClass();
 
-        xxx.doNothing();
+        DoNothing lazy = new DoNothing();
 
+        lazy.doNothing();
 
+        DoSomeThing busy = new DoSomeThing();
+
+        busy.doSomeThing();
 
     }
 }
